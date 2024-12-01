@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,body{
+            height: 100vh;
+            width: 100vw;
+        }
+        /* 1 */
+        nav{
+            position: fixed;
+            height: 70px;
+            width: 100%;
+            /* border: 2px solid hotpink; */
+            background-color: black;
+         }
+
+        .nav_links{
+            height: 100%;
+            width: 50%;
+            font-family: "Permanent Marker", cursive;
+            font-weight: 400;
+            font-style: normal;
+            padding: 20px;
+            float: left;
+            color: white;
+        }
+
+        .head_links{
+            height: 100%;
+            width: 50%;
+            /* border: 5px solid navy; */
+            font-family: "Roboto Serif", serif;
+            font-weight: 600;
+            font-style: normal;
+            display: inline-block;
+            color: #fff;
+        }
+
+        a{
+           /* border: 2px solid orange; */
+           float: left;
+           margin-left: 25px;
+           margin-top: 25px;
+           /* padding-top: 0px; */
+           text-decoration: none;
+           color: white;
+        }
+        /* 2 */
+        header{
+            height: 100vh;
+            width: 100vw;
+            background: url("./gym.jpg");
+            background-position: center;
+            background-size: contain;
+        }
+        header h2{
+             z-index: 5;
+             position: absolute;
+             margin-top: 400px;
+             margin-left: 100px;
+             font-size: 40px;
+             color: whitesmoke;
+             font-family: cursive;
+             text-align: center;
+         }
+         span{
+            color: red;
+         }
+        .header_button{
+            background-color: red;
+            color: white;
+            border-radius: 20px;
+            height: 10%;
+            width: 20%;
+            margin-top: 420px;
+            margin-left: 800px;
+            border: none;
+            font-family: cursive;
+        }
+         button:active{
+            transform: scale(0.96);
+        }
+        /* 3 */
+        section{
+            height: 90vh;
+            /* border: 5px solid blue; */
+        }
+        .page3{
+            background: linear-gradient( red, yellow,brown);
+            
+        }
+       
+           
+        .section_left{
+            height: 50%;
+            width: 42%;
+            /* border: 3px solid red; */
+            margin-top: 100px;
+            font-size: 35px;
+            padding-left: 20px;
+            /* color: white; */
+            float: left;
+        }
+        .section_right{
+            height: 40%;
+            width: 58%;
+            /* border: 3px solid red; */
+            margin-top: 100px;
+            font-size: 20px;
+            text-align: justify;
+            line-height: 40px;
+            /* color: white; */
+            float: left;
+        }
+        .section_rt{
+            height: 80px;
+            width: 150px;
+            /* border: 2px solid black; */
+            margin-top: 80px;
+            float: left;
+            margin-left: 400px;
+            font-size: 30px;
+            font-family: cursive;
+        }
+        /* 4 */
+        .sec_left{
+            height: 100%;
+            width: 50%;
+            /* border: 2px solid red; */
+            float: left;
+            background-image: url(https://media.licdn.com/dms/image/C4D12AQEDyHGoiP4Utw/article-cover_image-shrink_720_1280/0/1624088076497?e=2147483647&v=beta&t=G-ujj-wdNu7OU2My70XBzV8Oz3farBI1AT_QC7RdtAE);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .sec_right{
+            height: 100%;
+            width: 50%;
+            /* border: 2px solid black; */
+            float: left;
+            background-color: #80703C;
+            padding-top: 70px;
+            padding-left: 40px;
+            font-size: 20px;
+            color: white;
+            line-height: 30px;
+        }
+        .btn{
+            margin-top: 50px;
+            margin-left: 290px;
+        }
+        .section_btn{
+            height: 60px;
+            width: 150px;
+            border: 6px double;
+            color: white;
+            background-color: #80703C;
+            font-family: cursive;
+            font-size: 20px;
+            float: left;
+          
+        }
+        /* 5 */
+        .section_left1{
+            height: 100%;
+            width: 50%;
+            /* border: 2px solid green; */
+            float: left;
+            background-color: #6c4528;
+            padding-top: 70px;
+            padding-left: 40px;
+            padding-right: 40px;
+            font-size: 20px;
+            color: white;
+            line-height: 30px;
+
+        }
+        .section_right1{
+            height: 100%;
+            width: 50%;
+            /* border: 2px solid green; */
+            float: left;
+        }
+        .section_right1 img{
+            height: 100%;
+            width: 100%;
+        }
+        .section_btn1{
+            height: 60px;
+            width: 150px;
+            border: 6px double;
+            color: white;
+            background-color: #6c4528;
+            font-family: cursive;
+            font-size: 20px;
+            float: left;
+         }
+
+         /* 6 */
+        .left{
+            /* border: 2px solid green; */
+            height: 100%;
+            width: 50%;
+            float: left;
+         }
+        .visit{
+            height: 10%;
+            width: 50%;
+            color: black;
+            font-size: 2em;
+            text-decoration: underline;
+            font-family: "Dancing Script", cursive;
+            margin-top: 100px;
+            margin-left: 90px;
+            float: left;
+            /* border: 2px solid blue; */
+         }
+        .para{
+            height: 200px;
+            width: 70%;
+            /* border: 3px solid red; */
+            margin-top: 180px;
+            margin-left: 90px;
+            font-size: 1.5em;
+            font-family: "Dancing Script", cursive;
+            color: black;
+         }
+        .right{
+            /* border: 2px solid green; */
+            height: 100%;
+            width: 50%;
+            float: left;
+         }
+        .first{
+            color: black;
+            height: 10%;
+            width: 40%;
+            margin-top: 100px;
+            float: left;
+            border-radius: 20px;
+            border: none;
+            /* background-color: white; */
+         }
+        .last{
+            color: black;
+            height: 10%;
+            width: 40%;
+            margin-top: 100px;
+            margin-left: 5%;
+            float: left;
+            border-radius: 20px;
+            border: none;
+            /* background-color: white; */
+         }
+        .mail{
+            color: black;
+            height: 10%;
+            width: 40%;
+            margin-top: 10px;
+            float: left;
+            border-radius: 20px;
+            border: none;
+            /* background-color: white; */
+         }
+        .password{
+            color: black;
+            height: 10%;
+            width: 40%;
+            margin-top: 10px;
+            margin-left: 5%;
+            float: left;
+            border-radius: 20px;
+            border: none;
+            /* background-color: white; */
+         }
+        .address{
+            color: black;
+            height: 10%;
+            width: 85%;
+            margin-top: 10px;
+            /* margin-left: 5%; */
+            float: left;
+            border-radius: 20px;
+            border: none;
+            /* background-color: white; */
+         }
+        .submit{
+            color: black;
+            height: 10%;
+            width: 20%;
+            margin-top: 10px;
+            margin-left: 35%;
+            float: left;
+            border-radius: 20px;
+            border: 2px solid black;
+            background-color: white;
+        }
+          /* 7  */
+        footer{
+            height: 100vh;
+            /* border: 3px solid hotpink; */
+            background: url("https://media.istockphoto.com/id/658590900/photo/fitness-on-the-ropes.jpg?s=612x612&w=0&k=20&c=8hivbsWAyIkSweY17VtutTmyLs3Ow6F-TLgHY9CyLjg=");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .color{
+            background-color: black;
+            height: 100%;
+            width: 100%;
+            opacity: 0.8;
+            /* position: relative; */
+        }
+        .footer_left{
+            height: 100%;
+            width: 50%;
+            /* border: 2px solid purple; */
+            float: left;
+        }
+        .work{
+            height: 50%;
+            width: 100%;
+            color: white;
+            font-size: 30px;
+            font-family: cursive;
+            padding: 60px;
+            /* border: 2px solid green; */
+        }
+        .footer_btn{
+            height: 80px;
+            width: 200px;
+            /* border: 3px solid purple; */
+            margin-left: 250px;
+            margin-top: 30px;
+        }
+        .join{
+            border-radius: 20px;
+            height: 58%;
+            width: 80%;
+            background-color: black;
+            border: 2px solid red;
+            color: white;
+            font-family: cursive;
+            float: left;
+        }
+        .contact_us{
+            height: 120px;
+            width: 100%;
+            background-color: #252525;
+            /* border: 2px solid red; */
+            color: #fff;
+            float: left;
+            padding-left: 130px;
+        }
+        h3{
+            font-size: 30px;
+        }
+        p{
+            font-size: 20px;
+        }
+        i{
+            color: red;
+        }
+        .footer_right{
+            height: 100%;
+            width: 50%;
+            /* border: 2px solid purple; */
+            float: left;
+        }
+        .box{
+            height: 120px;
+            width: 100%;
+            background-color: #252525;
+            /* border: 2px solid red; */
+            color: #fff;
+            float: left;
+            padding-left: 130px;
+            margin-top: 389px;
+        }
+        .social_link{
+            border-radius: 50%;
+            height: 40px;
+            width: 40px;
+            /* border: 2px solid blue; */
+            padding: 5px;
+            float: left;
+            background-color: red;
+            margin: 10px;
+            border: none;
+        }
+        .ri-facebook-line,.ri-instagram-line,.ri-whatsapp-line{
+            color: white;
+            font-size: 23px;
+        }
+        #up_arrow{
+            font-size: 30px;
+            border: 3px solid red;
+            position: fixed;
+            margin-left: 95%;
+            margin-top: 45%;
+        }
+       
+       
+       
+       
+        
+ </style>
+</head>
+<body>
+    <!-- 1 -->
+    <nav>
+        <div class="nav_links">
+            <h1>TECHFIT CLUB</h1>
+        </div>
+        <div class="head_links">
+            <a href="">HOME</a>
+            <a href="">ABOUT</a>
+            <a href="">SERVICES</a>
+            <a href="">SCHEDULE</a>
+            <a href="">CONTACT</a>
+        </div>
+    </nav>
+    <!-- 2 -->
+    <header>
+        <h2><span>"</span>Turning dreams <br>into <span>Reality !"</span></h2>
+        <button class="header_button">Become a Member</button>
+    </header>
+    <!-- 3 -->
+    <section class="page3">
+        <div class="section_left">We're Passionate About<br><br>Fitness,dedicated to growth,<br><br>and always striving for sucess!</div>
+        <div class="section_right">"Our gym is a vibrant and energizing place where we foster not just fitness but also friendship and motivation.Every member here shares a common goal -to improve their health and fitness. We provide a supportive and encourage enviroment where everyone can succed in their fitness journey come join us in building a healthier and stronger lifestyle together!"
+         </div>
+         <div class="section_rt">-Author</div>
+    </section>
+    <!-- 4 -->
+    <section>
+        <div class="sec_left">
+        </div>
+        <div class="sec_right">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro praesentium modi tempora sit sapiente aperiam impedit eveniet, sequi beatae cum iusto incidunt fugiat qui minus odio nam aliquid dignissimos accusantium inventore vero blanditiis placeat! Repellat veniam laudantium odit nulla labore alias non repudiandae veritatis. Minima qui eius molestias a nisi facere cum? Beatae dolor praesentium provident maxime expedita labore, laudantium facilis dolores, magni laborum at id totam nihil quaerat rem!
+            <div  class="btn"><button class="section_btn">Know More</button></div>
+        </div>
+    </section>
+    <!-- 5 -->
+    <section>
+        <div class="section_left1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab quam hic corporis! Et ea veniam qui fugiat corrupti ex saepe obcaecati iste quod expedita. Asperiores dicta qui velit modi obcaecati doloremque aspernatur quae ullam a totam possimus, nostrum aliquid in libero neque distinctio. Qui et facilis perspiciatis minus porro. Qui, atque voluptatem recusandae debitis maiores explicabo iusto esse totam?
+            <div  class="btn"><button class="section_btn1">Know More</button></div>
+        </div>
+        <div class="section_right1">
+            <img src="https://steelsupplements.com/cdn/shop/articles/shutterstock_1081353626_1000x.jpg?v=1622204249" alt="">
+        </div>
+    </section>
+    <!-- 6 -->
+    <section>
+        <div class="left">
+            <div class="visit">Schedule a visit </div>
+        <div class="para">If you would lie to schedule a visit to our gym facility. please fill out the from below.We will contact you to arrange a convenient time for your visit and provide you with a tour of our gym....</div>
+        </div>
+        <div class="right">
+            <button class="first">Enter your first name....</button>
+            <button class="last">Enter your last name...</button>
+            <button class="mail">Enter your gmail.com</button>
+            <button class="password">Enter your password</button>
+            <button class="address">Enter your address</button>
+            <button class="submit">submit</button>
+        </div>
+    </section>
+    <!-- 7 -->
+
+    <footer>
+        <div class="color">
+        <div class="footer_left">
+        <div class="work"><span>"</span>Try, Work Hard, Stay Consistent, and make the gym your happy place where the gym you happy place where the magic of fitness happens! <span>"</span></div>
+        <div class="footer_btn"><button class="join">Join Us Now!</button></div>
+        <div class="contact_us"><h3>Contact Us!</h3>
+            <p><i class="ri-home-office-line"></i>&nbsp;&nbsp; Bihar,India,101101</p>
+            <p><i class="ri-phone-line"></i>&nbsp;&nbsp;+91 980765432</p>
+            <p><i class="ri-mail-line"></i>&nbsp;&nbsp;info@TechFitClube</p>
+        </div></div>
+        <div class="footer_right">
+            <div class="box"><h3>Connect with us!</h3>
+            <button class="social_link"><i class="ri-facebook-line"></i></button>
+            <button class="social_link"><i class="ri-instagram-line"></i></button>
+            <button class="social_link"><i class="ri-whatsapp-line"></i></button>
+        </div>
+        </div>
+          <div id="up_arrow"><i class="ri-arrow-up-double-line"></i></div>
+        </div>
+    </footer>
+</body>
+</html>
